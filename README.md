@@ -22,10 +22,10 @@
 8. 支持本机导入、WiFi 传书等方式导入书籍
 
 
-## 当前可获取版本（暂时）
+## 当前可获取版本
 
-目前仅开放 **国际版（`com.uutxtreader.intl`）** 的 Google Play **封闭测试**。  
-**国内正式版 APK**（`com.uutxtreader`）尚未开放下载，稍后通过本仓库 [Releases](https://github.com/chinaszq/uutxtreader-release/releases) 提供。
+**国内正式版 APK**（`com.uutxtreader`）已开放下载，见下方「国内版」。  
+**国际版**（`com.uutxtreader.intl`）为 Google Play **封闭测试**，见下方「国际版 · 封闭测试」。
 
 ### 国际版 · 封闭测试
 
@@ -36,11 +36,15 @@
 
 说明：未加入测试名单时，商店页可能无法安装或提示不可用；计费与更新以 Google Play 为准。本仓库 **不提供** intl APK 直链。
 
-## 国内版（即将）
+## 国内版（已开放）
 
 - 包名：`com.uutxtreader`
-- 渠道：本仓库 GitHub Releases（届时附 SHA-256）
-- 现状：**暂未上架**
+- 系统要求：Android 8.0（API 26）及以上
+- 安装包：`herao-official-v*.apk`
+- 渠道一：本仓库 [Releases](https://github.com/chinaszq/uutxtreader-release/releases)（每个 Release 附 **SHA-256**）
+- 渠道二：官网直链 [https://herao.uurj.com/download.html](https://herao.uurj.com/download.html)
+- 安装步骤：下载 APK → 核对公布的 **SHA-256** → 在系统设置中允许「安装未知来源应用」→ 点击 APK 完成安装
+- 请仅从本仓库或官网获取安装包；第三方渠道无法保证完整性
 
 ## 隐私与协议
 
